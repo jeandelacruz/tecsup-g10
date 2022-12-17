@@ -3,7 +3,7 @@
 # Creación
 
 ```python
-               //Nombre del entorno
+// interprete -m modulo nombre_carpeta
 python -m venv venv
 ```
 
@@ -44,4 +44,28 @@ deactivate
 
 ```python
 pip list
+```
+
+# Instalar librerias
+
+```python
+pip install nombre_libreria
+```
+
+# Desinstalar librerias
+
+```python
+pip uninstall nombre_libreria
+```
+
+# Crear archivo de instalación de paquetes (requirements.txt)
+
+```python
+pip freeze > requirements.txt
+```
+
+# Instalar librerias desde requirements.txt
+
+```python
+pip install -r requirements.txt
 ```
